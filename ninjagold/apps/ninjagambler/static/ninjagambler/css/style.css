@@ -1,0 +1,26 @@
+* {
+    margin: 0px ;
+    padding: 0px;
+}
+
+.box {
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    border: 3px black solid;
+    margin:15px;
+    text-align:center
+}
+div.text {
+    overflow-y: scroll;
+    height: 100px;
+    width:80%;
+    border: 3px black solid;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+.red {
+    color:red;
+}
+.green {
+    color:green;letter-spacing: normal;
+}
